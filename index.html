@@ -4,12 +4,13 @@
         <meta charset="UTF-8">
         <title>Ecoleta</title>
 
-        
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="./style/main.css">
         <link rel="stylesheet" href="./style/home.css">
-        <link rel="stylesheet" href="./style/responsive.css">
+        <link rel="stylesheet" href="./style/modal.css">
 
-        <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./style/responsive.css">
+        
 
     </head>
     <body>
@@ -37,6 +38,25 @@
             </div>
         </div>
 
+        <div id="modal" class="hide">
+            <div class="content">
+                <div class="header">
+                    <h1>Pontos de coleta</h1>
+                    <a href="#">Fechar</a>
+                </div>
+                <form action="">
+                    <label for="search">Cidade</label>
+                    <div class="search field">
+                        <input type="text" name="search"  placeholder="Digite a cidade">
+                        <button>
+                            <img src="./assets/search.svg" alt="Buscar">
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
         
+
+        <script src="./scripts/index.js"></script>
     </body>
 </html>
